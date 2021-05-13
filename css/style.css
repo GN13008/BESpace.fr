@@ -1,111 +1,45 @@
 /*Import des components*/
 @import url("Components/navbar.css");
+@import url("Components/card.css");
 
-
-body{
-  background: white;
-  color: rgb(20,20,20);
-  font-family: 'Open Sans', sans-serif;
+body {
+  background-color: gray;
   margin:0;
 }
-h1{
-  font-family: 'Roboto', sans-serif;
-  font-size: 50px;
-}
-h2 {
-  font-size: 18px;
-}
-a {
-  text-decoration: none;
-  color:blue;
-}
 
-a:hover {
-  text-decoration: none;
-  color: purple;
-}
-
-#banner{
-  background-image: linear-gradient(120deg, rgba(20,20,20,0.8), rgba(20,20,20,0.2)), url("../images/Terre.jpg");
+.banner {
+  width: 100%;
   background-size: cover;
-  padding: 150px 0;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(120deg, rgba(20,20,20,0.8), rgba(20,20,20,0.2)); */
+}
+
+.banner-container {
+  width: 1000px;
+  margin: 0 auto;
+  color: white;
   text-align: center;
+}
+
+.cards {
+  width: 1000px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-around;
+}
+
+.footer {
+  width: 100vw;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.footer-container {
+  width: 1000px;
+  margin: 0 auto;
   color: white;
 }
-
-#banner h1 {
-  font-family: Montserrat;
-  color: white;
-  text-shadow 5px 5px #558ABB; 
-}
-
-#banner p {
-  color:rgb(20,20,20);
-  font-size:30px;
-  font-weight: lighter;
-  opacity:0.7;
-}
-
-.container{
-  margin:0;
-  padding:0;
-  max-width: none;
-}
-
-.card{
-  padding:50px;
-  text-align:center;
-  border:none;
-}
-
-.card img{
-  margin-bottom: 10px;
-}
-
-#footer{
-  background: black;
-  color: white;
-  font-size: 20px;
-  padding:100px;
-}
-
-#footer a {
-  font-size: 20px;
-  color: grey;
-}
-
-#footer a:hover {
-  color:white;
-  
-}
-
-.GND {
-  opacity: 0.3;
-  font-weight: lighter;
-}
-
-
-.avatar {
-  width: 40px;
-  border-radius: 50%;
-}
-
-.avatar-large {
-  width: 56px;
-  border-radius: 50%;
-}
-
-.avatar-bordered {
-  width: 40px;
-  border-radius: 50%;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
-}
-
-.avatar-square {
-  width: 40px;
-  border-radius: 0px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
-}
-
