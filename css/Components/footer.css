@@ -1,0 +1,23 @@
+.footer {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: black;
+  color: white;
+  display: block;
+}
+
+.footer ul {
+  display: inline;
+}
+
+.footer li{
+  display: inline;
+}
+
+
+/* .footer-container {
+  width: 1000px;
+  margin: 0 auto;
+  color: white;
+} */

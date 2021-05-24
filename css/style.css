@@ -1,10 +1,15 @@
 /*Import des components*/
 @import url("Components/navbar.css");
 @import url("Components/card.css");
+@import url("Components/footer.css");
+
+/*Import des fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap');
 
 body {
   background-color: gray;
   margin:0;
+  font-family: Montserrat;
 }
 
 .container {
@@ -23,24 +28,12 @@ body {
   /* background: linear-gradient(120deg, rgba(20,20,20,0.8), rgba(20,20,20,0.2)); */
 }
 
+.banner .container{
+  text-align: center;
+  color: white;
+}
+
 .cards {
   display: flex;
   justify-content: space-around;
 }
-
-.footer {
-  width: 100vw;
-  margin: 0 auto;
-  background-color: black;
-}
-
-.footer .container {
-  justify-content: space-around;
-}
-
-
-/* .footer-container {
-  width: 1000px;
-  margin: 0 auto;
-  color: white;
-} */
