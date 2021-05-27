@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+
+.footer .container{
+  display: flex;
+  flex-direction: column;
+  margin: 16px auto;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.footer p {
+  display: inline-block;
+}
+
+.footer ul {
+  display: inline;
+  padding: 0;
+}
+
+.footer li{
+  display: inline;
+  color: grey;
+}
+
+.footer .fab{
+  color: white;
+  font-size: 32px;
+  margin: 0 8px;
+}
+
+.footer .fab:hover{
+  color: grey;
+}

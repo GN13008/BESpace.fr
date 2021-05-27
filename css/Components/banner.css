@@ -1,0 +1,15 @@
+.banner {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(120deg, rgba(20,20,20,0.8), rgba(20,20,20,0.2)); */
+}
+
+.banner .container{
+  text-align: center;
+  color: white;
+}
